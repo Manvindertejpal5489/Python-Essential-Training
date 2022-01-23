@@ -15,7 +15,7 @@ def elapsed_time(f):
 @elapsed_time
 def big_sum():
     num_list = []
-    for num in (range(0, 10000)):
+    for num in (range(0, 1000001)):
         num_list.append(num)
     print(f'Big sum: {sum(num_list)}')
 
