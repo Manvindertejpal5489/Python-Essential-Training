@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # Copyright 2009-2017 BHG http://bw.org/
+# a set is like a list with no duplicate elements
+
 
 def main():
     a = set("We're gonna need a bigger boat.")
